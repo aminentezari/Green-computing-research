@@ -48,3 +48,13 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 .Rproj.user
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+emissions.csv
+.codecarbon.config
+.DS_Store
+src/powermetrics_log.txt
+src/separability_functions.R
+src/.ipynb_checkpoints/

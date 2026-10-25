@@ -119,7 +119,7 @@ results_mp5_long <- results_mp5 %>%
   pivot_longer(cols = c(DBCV, DCSI, CDbw, AUCC, DISCO),
                names_to = "CVI", values_to = "score")
 
-p2 <- ggplot(results_mp5_long, aes(x = CVI, y = dataset, fill = score)) +
+p2 <- ggplot(results_mp5_long, aes(x = CVI, y = dataset, fill = score)) +4
   geom_tile(color = "white") +
   geom_text(aes(label = round(score, 3)), size = 3) +
   scale_fill_gradient(low = "white", high = "steelblue") +
